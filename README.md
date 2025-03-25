@@ -1,21 +1,21 @@
-# 🎵 Python Metronome App (Tkinter + Pygame)
+# Python Metronome App (Tkinter + Pygame)
 
 A visually engaging and fully interactive metronome built with **Tkinter** for GUI and **Pygame** for sound playback. Designed for musicians who want intuitive tempo control, time signature flexibility, and responsive tap tempo.
 
 ---
 
-## 🚀 Features
+## Features
 
-- 🎚️ **Tempo Control**: Adjustable from 30 to 230 BPM via slider or arrow keys.
-- 🔁 **Time Signatures**: Select from common and compound meters, or choose custom.
-- 🖱️ **Tap Tempo**: Press `T` to estimate tempo by tapping.
-- 🎧 **Audio Feedback**: 
+- **Tempo Control**: Adjustable from 30 to 230 BPM via slider or arrow keys.
+- **Time Signatures**: Select from common and compound meters, or choose custom.
+- **Tap Tempo**: Press `T` to estimate tempo by tapping.
+- **Audio Feedback**: 
   - Strong beat
   - Weak beat
   - Subdivision for compound meters
-- ⏱️ **Real-time Beat Counter**: Visual cue of current beat in the measure.
-- 🎼 **Musical Markings**: Displays tempo markings (e.g., Allegro, Adagio) based on BPM.
-- ⌨️ **Keyboard Shortcuts**:
+- **Real-time Beat Counter**: Visual cue of current beat in the measure.
+- **Musical Markings**: Displays tempo markings (e.g., Allegro, Adagio) based on BPM.
+- **Keyboard Shortcuts**:
   - `Spacebar`: Start/Stop
   - `T`: Tap tempo
   - `M`: Cycle time signatures
@@ -24,7 +24,7 @@ A visually engaging and fully interactive metronome built with **Tkinter** for G
 
 ---
 
-## 🛠️ Requirements
+## Requirements
 
 - Python 3.7+
 - `pygame`
@@ -38,7 +38,7 @@ pip install pygame
 
 ---
 
-## 📁 File Structure
+## File Structure
 
 ```
 metronome/
@@ -51,7 +51,7 @@ metronome/
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 - Uses `pygame.mixer` to play beat sounds at intervals calculated from BPM and time signature.
 - `tkinter.Scale` widget lets you set the tempo dynamically.
@@ -61,7 +61,7 @@ metronome/
 
 ---
 
-## ⚙️ Run It
+## Run It
 
 ```bash
 python metronome.py
@@ -71,7 +71,7 @@ Then interact with the UI, or use keyboard shortcuts to control playback.
 
 ---
 
-## ⌨️ Keyboard Shortcuts
+## Keyboard Shortcuts
 
 | Key        | Action                    |
 |------------|---------------------------|
@@ -83,7 +83,7 @@ Then interact with the UI, or use keyboard shortcuts to control playback.
 
 ---
 
-## 📝 Notes
+## Notes
 
 - Make sure sound files exist in the `metronomes/` folder or update the paths.
 - Tap tempo requires 2–6 taps in rhythm to estimate BPM.
@@ -91,7 +91,7 @@ Then interact with the UI, or use keyboard shortcuts to control playback.
 
 ---
 
-## 📦 Packaging (Optional)
+## Packaging (Optional)
 
 To package into a standalone app:
 
@@ -102,10 +102,10 @@ pyinstaller --onefile --windowed metronome.py
 
 ---
 
-## 📄 License
+## License
 
 MIT License. Feel free to modify and use for personal or educational projects.
 
 ---
 
-## 🎻 Made for Musicians by Musicians 🎶
+## Made for Musicians by a Musician 🎶
