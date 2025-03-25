@@ -1,4 +1,4 @@
-# 🎵 Metronome App (Tkinter + Pygame)
+# 🎵 Python Metronome App (Tkinter + Pygame)
 
 A visually engaging and fully interactive metronome built with **Tkinter** for GUI and **Pygame** for sound playback. Designed for musicians who want intuitive tempo control, time signature flexibility, and responsive tap tempo.
 
