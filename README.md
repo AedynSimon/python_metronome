@@ -24,15 +24,6 @@ A visually engaging and fully interactive metronome built with **Tkinter** for G
 
 ---
 
-## 📸 Screenshots
-
-> _You can add screenshots here by uploading images and linking them like:_
-```md
-![Screenshot](screenshots/metronome_ui.png)
-```
-
----
-
 ## 🛠️ Requirements
 
 - Python 3.7+
